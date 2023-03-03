@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;;
+} 
+nav{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 30x  50px;
+}
+nav ul li{
+    text-decoration: none;
+    color: #000; ;
+    font-weight: bold;
+}
+nav ul li :hover{
+    color: red;
+}
+.detel{
+  margin: 8%;
+  margin-top: 15%;
+}
+ .detel{
+    font-size:  20px;
+    color: #212121;
+    margin-bottom: 20px;
+ }
+span{
+    color: orange;
+}
+.detel{
+    color: #555;
+    line-height: 30px;
+}
+.detel{
+    margin-left: 9%;
+    margin-top: 13%;
+}
+.detel h1{
+    font-size: 75px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.images{
+     width: 45%;
+     height: 80%;
+     position: absolute;
+     bottom: 0;
+     right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.wrapper .login{
+    width: 100%;
+    padding: 40px;
+}
+
+.login h2{
+    font-size: 2em;
+    color:lightcyan;
+    text-align: center;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid lightcyan;
+    margin: 30px 0;
+}
+
+.box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box input:focus~label,
+.box input:valid~label{
+    top: -5px;
+}
+
+
+.box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 30px 0 5px;
+}
+
+.forgot{
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot label input{
+    accent-color: lightcyan;
+    margin-right: 3px;
+}
+
+.forgot a{
+    color: #162938;
+    text-decoration: none;
+}
